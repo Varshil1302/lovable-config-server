@@ -19,5 +19,5 @@ eureka:
     prefer-ip-address: true
     hostname: localhost
 jwt:
-  secretKey: cvrdsfadsjksahjklxnjkcnwqdiljakjxoxmkzl mccxdsvdsdcxzcmasldmwa00lsddsvsd  
+  secretKey: cvrdsfadsjksahjklxnjkcnwqdiljakjxoxmkzlmccxdsvdsdcxzcmasldmwa00lsddsvsd  
 
