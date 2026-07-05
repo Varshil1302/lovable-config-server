@@ -4,19 +4,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:9010/lovable-intelligence-db
-    username: user
-    password: password
+    url: jdbc:postgresql://localhost:9010/IntelligenceDB
+    username: lovable
+    password: test123
     driver-class-name: org.postgresql.Driver
-
-  ai:
-    openai:
-      api-key: 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
-      chat:
-        options:
-          model: gpt-4o
-          temperature: 0.0
-
 logging:
   level:
     org.springframework.ai.chat.client: DEBUG
