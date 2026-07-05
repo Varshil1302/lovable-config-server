@@ -22,8 +22,8 @@ spring:
             - StripPrefix=2
             
         # Intelligence Service  (context-path: /intelligence)
-        - id: intelligence-service
-          uri: lb://intelligence-service
+        - id: IntelligenceService
+          uri: lb://IntelligenceService
           predicates:
             - Path=/api/v1/intelligence/**
           filters:
