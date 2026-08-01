@@ -4,8 +4,8 @@ server:
 app:
   security:
     public-routes:
-      - "/auth/signup"
-      - "/auth/login"
+      - "/api/v1/account/auth/signup"
+      - "/api/v1/account/auth/login"
       - "/webhooks/**"
       - "/swagger-ui/**"
       - "/swagger-ui.html"
