@@ -34,3 +34,26 @@ eureka:
 jwt:
   secretKey: cvrdsfadsjksahjklxnjkcnwqdiljakjxoxmkzlmccxdsvdsdcxzcmasldmwa00lsddsvsd  
 
+app:
+  frontend:
+    url: http://localhost:8080/frontend
+  preview:
+    domain: localhost
+    namespace: shuttle-apps
+    proxy-port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  health:
+    config:
+      enabled: false
+
+logging:
+  level:
+    org.apache.kafka.clients: WARN
+    org.apache.kafka.common: WARN
+
+
